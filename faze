@@ -1,0 +1,111 @@
+import time
+import turtle
+
+t = turtle.Turtle()
+
+t.getscreen().bgcolor("black")
+t.pencolor("white")
+t.speed(5)
+t.fillcolor("red")
+t.getscreen().screensize(500, 500)
+
+t.pensize(3)
+t.penup()
+t.setposition(-150, 150)
+t.pendown()
+t.begin_fill()
+t.forward(300)
+t.right(135)
+t.forward(60)
+t.right(45)
+t.forward(135)
+
+t.left(90)
+t.forward(80)
+t.left(90)
+t.forward(170)
+
+t.right(135)
+t.forward(70)
+t.speed(5)
+t.right(45)
+t.forward(115)
+
+t.left(60)
+t.forward(100)
+t.right(150)
+t.forward(133)
+
+t.left(90)
+t.forward(110)
+t.right(60)
+t.forward(60)
+t.right(120)
+t.forward(130)
+
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(110)
+
+t.right(45)
+t.forward(62)
+t.right(135)
+t.forward(120)
+
+t.end_fill()
+# f
+
+t.penup()
+t.goto(-180, 200)
+t.pendown()
+t.pensize(5)
+t.backward(30)
+t.right(90)
+t.forward(20)
+t.left(90)
+t.forward(20)
+t.back(20)
+t.left(90)
+t.back(20)
+# A
+t.penup()
+t.goto(-100, 170)
+t.pendown()
+t.right(25)
+t.forward(35)
+t.left(50)
+t.back(35)
+t.right(25 + 90)
+
+# z
+
+t.penup()
+t.goto(0, 200)
+t.pendown()
+t.forward(30)
+t.left(40)
+t.back(40)
+t.right(40)
+t.forward(30)
+
+# e
+t.penup()
+t.setposition(100, 200)
+t.pendown()
+t.forward(30)
+t.penup()
+t.right(90)
+t.forward(15)
+t.right(90)
+t.pendown()
+t.speed(1)
+t.forward(30)
+t.penup()
+t.left(90)
+t.forward(15)
+t.left(90)
+t.pendown()
+t.forward(30)
+
+time.sleep(5)
